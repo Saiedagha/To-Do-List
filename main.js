@@ -87,7 +87,7 @@ creat()
            let dat= now.getDate() +"/"+(now.getMonth()+1)+"/"+now.getFullYear();
 
 
-               let taskname =  prompt("add a task name") 
+               let taskname =  prompt("اضف المهمه") 
             if(taskname){
                         let taskopj= {
                         "title": taskname,
@@ -150,5 +150,6 @@ function storagetask(){
      let taskstring = JSON.stringify(tasks)
       localStorage.setItem("tasks",taskstring )
 }
+
 
 

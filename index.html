@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stayl.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <DIV  style="direction: rtl; ;">
+        <!-- center div -->
+        <div style="display: flex; justify-content: center; align-items: center; border-radius: 20px;">
+
+            <!-- tasks table -->
+           <div class="task-table">
+              <!-- header -->     
+            <div style="width: 100%; text-align: center; background-color: rgb(105, 32, 173); color: antiquewhite; padding-top: 8px;padding-bottom: 8px; border-radius: 20px;" >        
+                <h1 style="display: inline;">Tasxs</h1>
+                <button id="add-btn" class="circuler" style="float: right; background-color: aliceblue; margin-right: 10px; line-height: 0;" >
+                   <span class="material-symbols-outlined">
+                       <i class="fa-solid fa-plus"></i>
+
+                  </span>
+                </button>
+             </div>
+              <!--header  -->
+
+              <!-- tasks -->
+               <div id="tasks" style="padding: 20px;">
+                     <!-- task -->
+                      <div class="task">
+                        <!-- task info -->
+                         <div style=" width: 70%;">
+                            <h2>task-1</h2>
+                            <div> <span>23/12/2025</span> </div>
+                         </div>
+                         <!--// task info// -->
+                          <!-- task actions -->
+                         <div style="display: flex; justify-content: space-between; align-items: center; width: 20%; color: white; ">
+                             <button  class="circuler" style="background-color: red; color: white; ">
+                                <i class="fa-solid fa-trash"></i> 
+                            </button>
+                             <button class="circuler" style="background-color: rgb(13, 110, 50); color: white; ">
+                                      <i class="fa-solid fa-check"></i>
+                             </button>
+                             <button class="circuler" style="background-color: rgb(76, 0, 255); color: white; ">
+                                <i class="fa-solid fa-pen"></i>
+                            </button>
+
+                         </div>
+                         <!-- //task actions// -->
+                      </div>
+
+                      
+                     <!--// task// -->
+               </div>
+  
+              <!-- //tasks -->
+           </div>
+            <!--tasks table  -->
+        </div>
+        <!-- //center div -->
+    </DIV>
+</body>
+<script src="main.js"></script>
+
+</html>
